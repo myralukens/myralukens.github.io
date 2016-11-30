@@ -1,0 +1,8 @@
+name: myralukens
+location: myralukens
+longname: Myralukens
+layout: bootstrap
+author: 'Myra Lukens'
+description: 'Personal website'
+version: 0.9.3
+dest: site
