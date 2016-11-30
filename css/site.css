@@ -2,7 +2,6 @@
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 @font-face { font-family: MyraLukens; src: url('MyraLukens.ttf'); } 
 
-
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
     display: block;
 }
