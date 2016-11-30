@@ -23,6 +23,11 @@ html {
 body {
     margin: 0;
 }
+
+a {
+   color: hotpink;
+}
+
 a:focus {
     outline: thin dotted;
 }
@@ -10480,7 +10485,7 @@ body {
     overflow: hidden;
 }
 a, a:visited {
-    color: #000;
+    color: hotpink;
     text-decoration: none;
 }
 .underline-body-links .sqs-block a, .underline-body-links .entry-content a, .underline-body-links .eventlist-excerpt a, .underline-body-links .playlist-description a, .underline-body-links .sqs-block a:visited, .underline-body-links .entry-content a:visited, .underline-body-links .eventlist-excerpt a:visited, .underline-body-links .playlist-description a:visited {
@@ -14590,4 +14595,29 @@ h1 {
 }
 p {
     font-family: "adobe-garamond-pro";
+}
+
+
+.sqs-block-image img {
+   display: inline;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
