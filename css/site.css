@@ -14627,3 +14627,9 @@ ul.share-buttons .sr-only {
 .img {
    max-width: 100%;
 }
+
+.scrollup {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
